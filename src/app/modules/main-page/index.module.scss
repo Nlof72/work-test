@@ -1,0 +1,14 @@
+.main-page-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables-contaoner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
