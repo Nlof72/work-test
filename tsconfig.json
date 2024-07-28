@@ -30,6 +30,7 @@
     "src/*.tsx",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "src/app/modules/team/tools/forms/invite-new-members/tools/member-form-contaner/index.tsc"
+    "src/app/modules/team/tools/forms/invite-new-members/tools/member-form-contaner/index.tsc",
+    "./module.css.d.ts"
   ]
 }
