@@ -35,9 +35,12 @@ export const TableBlock:FC<ITableBlock> = ({name}) => {
                 }
             }
         }
-        console.log(newTablesRows);
 
-        setTableRows(newTablesRows)
+        newTablesRows = newTablesRows.filter((item) => {
+            return !tableRows.find(it => it.entrance === item.entrance && it.flat === item.flat)
+        })        
+
+        setTableRows([...tableRows, ...newTablesRows])
     }
 
     return (

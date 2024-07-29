@@ -19,9 +19,7 @@ export const ChoseValueComponent: FC<IChoseValueComponent> = ({
     onCloseButton,
     onAddButton,
     onSelectValue
-}) => {
-    console.log(values.some(item => item.isSelected === true));
-    
+}) => {    
     return (
         <div id={name} className={classname.container}>
             <div className={classname.heading}>
